@@ -1,0 +1,6 @@
+framework module Pods_tryRealm {
+  umbrella header "Pods-tryRealm-umbrella.h"
+
+  export *
+  module * { export * }
+}

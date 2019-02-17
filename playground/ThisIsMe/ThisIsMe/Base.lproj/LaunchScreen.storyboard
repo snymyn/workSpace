@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Desktop HD Copy 8" translatesAutoresizingMaskIntoConstraints="NO" id="zqs-qa-H8b">
+                                <rect key="frame" x="-83" y="0.0" width="497" height="736"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group" translatesAutoresizingMaskIntoConstraints="NO" id="bhC-MT-TSs">
+                                <rect key="frame" x="7" y="304" width="400" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="WG7-e1-6KJ"/>
+                                    <constraint firstAttribute="width" constant="400" id="gb4-4q-SN3"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zqs-qa-H8b" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="52r-gC-OLF"/>
+                            <constraint firstItem="zqs-qa-H8b" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="EGh-0l-I8t"/>
+                            <constraint firstAttribute="bottom" secondItem="zqs-qa-H8b" secondAttribute="bottom" id="FpX-oC-f0Z"/>
+                            <constraint firstItem="bhC-MT-TSs" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="GQJ-vI-jCN"/>
+                            <constraint firstItem="zqs-qa-H8b" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="-83" id="OWs-cH-EAA"/>
+                            <constraint firstItem="bhC-MT-TSs" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Rei-6o-aQa"/>
+                            <constraint firstItem="bhC-MT-TSs" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="laM-h4-QIY"/>
+                            <constraint firstItem="bhC-MT-TSs" firstAttribute="centerY" secondItem="zqs-qa-H8b" secondAttribute="centerY" id="r1S-ng-7Y6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.708638360175691" y="374.4140625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Desktop HD Copy 8" width="2880" height="2048"/>
+        <image name="Group" width="2182" height="632"/>
+    </resources>
+</document>
